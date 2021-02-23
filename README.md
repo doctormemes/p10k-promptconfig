@@ -1,6 +1,6 @@
 # p10k-promptconfig plugin
 
-This plugin adds the ability to easily switch between Powerlevel10k prompt theme config files by defining the POWERLEVEL10K_THEME variable in your .zshrc file. Make sure whatever theme file you're using has a . in front of the name and the .zsh extension, like so:
+This plugin adds the ability to easily switch between Powerlevel10k prompt theme config files by defining the P10K_PROMPT variable in your .zshrc file. Make sure whatever theme file you're using has a . in front of the name and the .zsh extension, like so:
 
 **FILE NAME:**
 
