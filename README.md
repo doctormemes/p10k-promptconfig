@@ -6,6 +6,8 @@ This plugin adds the ability to easily switch between Powerlevel10k prompt theme
 
 .docstheme.zsh
 
+Unless you have $ZDOTDIR set and are using a custom directory for your Zsh dotfiles, place the theme file inside your user's home directory. If $ZDOTDIR is set, place it in the directory found in $ZDOTDIR.
+
 **DEFINE THE P10K_PROMPT VARIABLE IN .zshrc:**
 
 P10K_PROMPT="docstheme"
