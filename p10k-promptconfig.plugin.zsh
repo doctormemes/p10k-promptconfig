@@ -1,7 +1,7 @@
-# This file handles P10K themes if $P10K_PROMPT is set in .zshrc
-# To use a certain p10k theme, set $P10K_PROMPT to name of theme in .zshrc
+# This plugin handles P10K themes if $P10K_PROMPT is set in .zshrc
+# To use a certain p10k theme, set $P10K_PROMPT to name of theme in .zshrc (e.g. P10K_PROMPT="theme" to use the theme file named `.theme.zsh`)
 # To install a new theme, create a file and save it as `.<theme_name>.zsh` in the directory you keep your .zsh files (either your home directory or your $ZDOTDIR directory)
-if [[ "$ZSH_THEME" = "powerlevel10k/powerlevel10k" ]]; then # plugin is only useful if using powerlevel10k theme
+if [[ "$ZSH_THEME" = "powerlevel10k/powerlevel10k" && -n "$P10K_PROMPT" ]]; then # plugin is only useful if using powerlevel10k theme and if $P10K_PROMPT is set
     if [[ ! -z "$ZDOTDIR" ]]; then # ZDOTDIR variable is set, can use it
         if [[ -f "$ZDOTDIR/.$P10K_PROMPT.zsh" ]]; then
             source $ZDOTDIR/.$P10K_PROMPT.zsh
