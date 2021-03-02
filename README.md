@@ -10,7 +10,7 @@ Make sure whatever theme file you're using has a . in front of the name and the 
 
 **FILE LOCATION**
 
-Unless you have $ZDOTDIR set and are using a custom directory for your Zsh dotfiles, place the theme file inside your user's home directory. If $ZDOTDIR is set, place it in the directory found in $ZDOTDIR.
+Unless you have $ZDOTDIR set and are using a custom directory for your Zsh dotfiles, place your .<theme_name>.zsh theme file inside your user's home directory. If $ZDOTDIR is set, place it in the directory found in $ZDOTDIR.
 
 **DEFINE THE P10K_PROMPT VARIABLE IN .zshrc:**
 
